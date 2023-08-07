@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 60px 0 0px 0px;
+}
+
+.container {
+  width: 646px;
+  height: 748px;
+  margin: 100px auto;
+  padding: 0px 40px;
+  user-select: none;
+}
+
+.box {
+  border-radius: 3.615px;
+  outline: 1.904px solid #c8c8c8;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.box:hover {
+  display: block;
+  outline: 1.904px solid #007f61;
+  background: #f4fbf9;
+}
+
+.title{
+  width: 100%; 
+  text-align: center;   
+  border-bottom: 2px solid #c8c8c8;
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+.title span { 
+  color: #007f61;
+  font-family: sans-serif;
+  font-size: 18.076px;
+  font-style: normal;
+  font-weight: 600;
+  background: #ffffff;
+   padding:0 10px; 
+}
+.px-25 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.py-18 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.my-18 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+.inner-ctlr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.py-18 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.my-18 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+.rdo-btn-cntr {
+  display: flex;
+  align-items: center;
+}
+
+.radioBtn {
+  width: 22.461px;
+  height: 22.461px;
+  border-radius: 50%;
+  outline: 2px solid #dadada;
+  position: relative;
+}
+
+.radioBtn div {
+  width: 14.461px;
+  height: 14.461px;
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.typo-1 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 15.461px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.typo-2 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 15.461px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.typo-2 span {
+  color: #007f61;
+  margin-bottom: 5px;
+}
+.size-box {
+  display: flex;
+  justify-content: start;
+  margin-left: 49.6px;
+  margin-top: 14px;
+}
+.text-right {
+  text-align: right;
+}
+.size-controller,
+.color-controller {
+  display: flex;
+  flex-direction: column;
+}
+
+.size-controller h2,
+.color-controller h2 {
+  margin: 10px 0px;
+  font-size: 13.942px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.color-controller {
+  margin-left: 10px;
+}
+
+.select-size-1,
+.select-size-2 {
+  position: relative;
+}
+
+.select-size-2,
+.select-color-2 {
+  margin-top: 10px;
+}
+
+.num {
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+select {
+  width: 100px;
+  padding: 10px;
+  border: 0.904px solid #d9d9d9;
+  border-radius: 1.808px;
+  font-size: 14.846px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.box-container {
+  display: none;
+}
+
+.strike {
+  color: #9f9f9f;
+  font-size: 13px;
+  align-self: end;
+  position: relative;
+  left: 24px;
+}
+
+.strike::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 41%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  width: 105%;
+  height: 0.5px;
+  background-color: #9f9f9f;
+}
+
+.shiping-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0px;
+}
+
+.add-to-cart {
+  border-radius: 4px 4px 4px 0px;
+  background: #007f61;
+  text-align: center;
+  padding: 25px 10px;
+  cursor: pointer;
+}
+
+.add-to-cart span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.copyright {
+  padding: 20px 0px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: normal;
+  color: #000;
+}
+
+/* ------------------ Show/Hide Functionality ----------------------- */
+.active-box-style {
+  display: block;
+  outline: 1.904px solid #007f61;
+  background: #f4fbf9;
+}
+
+.active-bg {
+  background: #007f61;
+}
+
+.active-outline {
+  outline: 1.904px solid #007f61;
+}
